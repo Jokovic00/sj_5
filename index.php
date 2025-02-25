@@ -37,8 +37,24 @@
             echo "$name ma $age rokov <br>";
         }
 
+        // komentar
+
+        $zviera = array("pes","macka","vtak");
+        echo $zviera[1];
+        echo("<br>");
+        
+        foreach($zviera as $zvierata) {
+            echo "Zviera: ". $zvierata. "<br>";
 
 
+        }
+
+
+
+
+
+        
+    
 
         
 
